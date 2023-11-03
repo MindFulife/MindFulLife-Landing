@@ -203,3 +203,32 @@ section {
 #app {
     flex-direction: column;
 }
+
+footer {
+    background-color: #61A8EF;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy {
+    background-color: #61A8EF;
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+}
+
+.lista-devs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista-devs li {
+    margin: 0 10px;
+    color: white;
+}
+.lista-devs li a {
+    color: white;
+}
